@@ -3,7 +3,7 @@ import sys
 
 pygame.init()
 
-width, height = 1920, 1080
+width, height = 600, 600
 screen = pygame.display.set_mode((width, height))
 pygame.display.set_caption("FUCK_OFF_WINDOWS")
 
